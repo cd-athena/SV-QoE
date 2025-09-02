@@ -733,43 +733,55 @@
       
       <div class="dataset-info">
         <h3>SV-QoE: Perceptual Quality Assessment of Spatial Videos on Apple Vision Pro</h3>
-        
 
-        <div style="font-family: Arial, sans-serif; font-size: 18px; line-height: 1.8; max-width: 900px; background-color: #f9f9ff; padding: 30px; border-radius: 15px; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);">
+        <div style="
+          font-family: Arial, sans-serif; 
+          font-size: 18px; 
+          line-height: 1.8; 
+          max-width: 900px; 
+          background-color: #f9f9ff; 
+          padding: 30px; 
+          border-radius: 15px; 
+          box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        ">
+          <p style="color: #333;">
+            The SV-QoE dataset consists of stereoscopic and 2D video sequences generated entirely inside Unity Engine (v.6000.0.27f1).
+            The virtual cameras were calibrated to simulate human binocular vision:
+          </p>
+
           <ul style="padding-left: 25px; color: #333;">
-            
-            
-            The SV-QoE dataset consists of stereoscopic and 2D video sequences generated entirely inside Unity Engine (v.6000.0.27f1). The virtual cameras were calibrated to simulate human binocular vision:</p>
-            <ul>
-              <li><strong>Stereo baseline:</strong> 65 mm (average human interpupillary distance)</li>
-              <li><strong>Left/Right camera positions:</strong>
-                <ul style="list-style-type: disc; font-family: monospace; margin-left: 30px;">
-                  <li><span style="display:inline-block; width:140px;">Left_Camera</span> X = −0.325 m, Y = 0, Z = 0</li>
-                  <li><span style="display:inline-block; width:140px;">Right_Camera</span> X = +0.325 m, Y = 0, Z = 0</li>
-                  <li><span style="display:inline-block; width:160px;">Central_Camera</span> X = 0, Y = 0, Z = 0</li>
-                </ul>
-              </li>
-              <li><strong>Field of View (horizontal):</strong> 137°, providing a wide-angle view.</li>
-              <li><strong>Each camera rendered at 4K resolution (3840 × 2160) with 60 FPS output and 16:9 aspect ratio.</strong></li>
-            </ul>
-            <li><strong>Rendering Settings:</li>
-            <ul>
-              <li>Clipping planes: Near = 0.3 units, Far = 1000 units</li>
-              <li>Depth priority: -1</li>
-              <li>Occlusion culling enabled for performance</li>
-              <li>HDR and MSAA enabled</li>
-              <li>Render Path: set to “Use Graphics Settings”</li>
-            </ul>
-            
+            <li><strong>Stereo baseline:</strong> 65 mm (average human interpupillary distance)</li>
+            <li>
+              <strong>Left/Right camera positions:</strong>
+              <ul style="list-style-type: disc; font-family: monospace; margin-left: 30px;">
+                <li>
+                  <span style="display:inline-block; width:140px;">Left_Camera</span>
+                  X = −0.325 m, Y = 0, Z = 0
+                </li>
+                <li>
+                  <span style="display:inline-block; width:140px;">Right_Camera</span>
+                  X = +0.325 m, Y = 0, Z = 0
+                </li>
+                <li>
+                  <span style="display:inline-block; width:160px;">Central_Camera</span>
+                  X = 0, Y = 0, Z = 0
+                </li>
+              </ul>
+            </li>
+            <li><strong>Field of View (horizontal):</strong> 137°, providing a wide-angle view.</li>
+            <li><strong>Each camera rendered at 4K resolution (3840 × 2160) with 60 FPS output.</strong></li>
+            <li>
+              <strong>Rendering Settings:</strong>
+              <ul style="margin-left: 25px;">
+                <li>Clipping planes: Near = 0.3 units, Far = 1000 units</li>
+                <li>Depth priority: -1</li>
+                <li>Occlusion culling enabled for performance</li>
+                <li>HDR and MSAA enabled</li>
+                <li>Render Path: set to “Use Graphics Settings”</li>
+              </ul>
+            </li>
           </ul>
         </div>
-        
-        
-        
-
-       
-
-          
       </div>
       <div class="download-options">
         <a href="https://ftp.itec.aau.at/datasets/SV-QoE/" target="_blank" style="
